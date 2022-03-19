@@ -12,6 +12,7 @@ body{
     box-shadow: 5px 5px 5px 1px;
     justify-items: center;
     align-items: center;
+    
  
 }
 .div2{
@@ -25,8 +26,18 @@ body{
     margin-left: 50px;
     margin-top:15px;
     background-color: #cecece;
+    min-height: 400px;
  
  
+}
+
+label{
+    width: auto;
+    text-align: left;
+    margin-left: 50px;
+    color: rgb(253, 253, 253);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #search{
@@ -39,7 +50,7 @@ body{
 
 .searchBar{
 
-    margin-left: 290px;
+    margin-left: 47px;
     
     border-radius: 0.3em;
     padding: 0.3em;
