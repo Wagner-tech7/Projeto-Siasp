@@ -33,7 +33,9 @@ function add(){
 function print(){
     var temp="";
     for(let i=0;i<contacts.length;i++){
-        temp += "<div class='line'><b> "+"Nome: "+contacts[i].newName+"<br>Sobrenome: "+contacts[i].newLastname+"<br>Número: "+contacts[i].newMobile+"<br>E-mail: "+contacts[i].newEmail+"\n\ </b><div class='line2' onclick='del("+i+")'><b>Apagar</b></div></div><div class='line3'><b>Editar</b></div></div>"; 
+        temp += "<div class='line'><b> "+"Nome: "+contacts[i].newName+"<br>Sobrenome: "+contacts[i].newLastname+
+        "<br>Número: "+contacts[i].newMobile+"<br>E-mail: "+contacts[i].newEmail+
+        "</b><div class='line2' onclick='del("+i+")'><b>Apagar</b></div></div><div class='line3'><b>Editar</b></div></div>"; 
         
 
     }
