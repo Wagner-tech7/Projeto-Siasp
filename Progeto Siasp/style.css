@@ -1,19 +1,46 @@
-
-body{
-    background-color: #4a4b52;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 100hv;
+    width: 100hv;
+    background: linear-gradient(45deg, #232626, #42585e, #113063, #c5d8f0  );
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%; 
+
+    }
+    100%{
+        background-position: 0% 50%;
+
+    }
+    
+}
+
 .main_div{
     height:auto;
     width:510px;
     margin-left: 34%;
+    margin-top: 10px;
+    margin-bottom: 20px;
     border:2px solid rgb(46, 45, 45);
     border-radius: 5px;
-    background-color:#1c1c1f;
+    background: linear-gradient(45deg, #232626, #11161f, #0d2141  );
     box-shadow: 5px 5px 5px 1px;
     justify-items: center;
     align-items: center;
-    
- 
 }
 .div2{
     align-items: center;
@@ -26,32 +53,44 @@ body{
     margin-left: 50px;
     margin-top:15px;
     background-color: #cecece;
-    min-height: 400px;
- 
- 
+    min-height: 500px;
 }
 
-label{
+.container{
+    margin-top: 30px;
+    margin-left: 160px;
+    color: rgb(253, 253, 253);    
+}
+
+.formtitle{
     width: auto;
     text-align: left;
     margin-left: 50px;
     color: rgb(253, 253, 253);
-    font-family: Arial, Helvetica, sans-serif;
-
 }
+
+#titlesearchBar{
+    width: auto;
+    color: rgb(253, 253, 253);
+}
+
 
 #search{
     height: 25px;
-    margin-bottom: 25px;
-    align-items: center;
+    padding: 5px;
     background-color: none;
+    width: 240px;
+    border-radius:5px;
+    background-color: #cecece;
+
 }
 
+i{
+    cursor: pointer;
+}
 
 .searchBar{
-
     margin-left: 47px;
-    
     border-radius: 0.3em;
     padding: 0.3em;
 }
@@ -59,6 +98,8 @@ label{
 
 
 .mh{
+    margin-top: 17px;
+    margin-bottom: 15px;
     width: auto;
     text-align: left;
     margin-left: 50px;
@@ -69,30 +110,34 @@ label{
 }
 
 .text{
+    margin-top: 5px;
+    margin-bottom: 7px;
     width: 250px;
     height:40px;
     border-radius:5px;
     margin-left:50px;
     background-color: #cecece;
-
 }
+
 .add{
     width:160px;
     height:35px;
     border: 1px solid #929192;
     border-radius: 110px;
     float: right;
-    margin-top: -100px;
+    margin-top: -343px;
     margin-right: 10px;
     background-color:#929192;
     cursor: pointer;
 }
+
 .addbtn{
     text-align: center;
     margin-top: 10px;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .line{
     height:100px;
     border: 2px solid;
