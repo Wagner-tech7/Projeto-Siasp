@@ -13,15 +13,20 @@
 <body>
     <div  class="main_div">
         <h1 class="mh">Agenda Telefônica</h1>      
+            <form>
+                <label>Nome:</label><br>
+                <input id = "id_name" class="text" type ="text" onfocus="this.value=''" placeholder="Nome" required>
+                <br><label>Sobrenome:</label><br>
+                <input id ="id_lastname" class="text" type="Sobrenome" onfocus="this.value=''"placeholder="Sobrenome">
+                <br><label>Celular:</label><br>
+                <input id ="id_mobile" class="text" type="text" onfocus="this.value=''"placeholder="(00) 0 0000-0000" required>
+                <br><label>E-mail:</label><br>
+                <input id ="id_email" class="text" type="email" onfocus="this.value=''"placeholder="email@siasp.com">
+            </form>
             <form class="searchBar" action="#" method="post">
                 <input type="text" name="search" id="search" placeholder="Buscar" required>
                 <button type="submit"><i class="fas fa-search"></i></button>
             </form>
-        <input id = "id_name" class="text" type ="text" onfocus="this.value=''" placeholder="Nome" required>
-        <input id ="id_lastname" class="text" type="Sobrenome" onfocus="this.value=''"placeholder="Sobrenome">
-        <input id ="id_mobile" class="text" type="text" onfocus="this.value=''"placeholder="Celular" required>
-        <input id ="id_email" class="text" type="email" onfocus="this.value=''"placeholder="E-mail">
-        
         <div class="add" onclick="add()"><h4 class="addbtn">Adicionar</h4></div>
             <br>
         <div class="div2" id="3">
